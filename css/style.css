@@ -2,3 +2,17 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+header {
+  background: blue;
+  padding: 7.5px;
+}
+
+h1.header {
+  color: aliceblue;
+  text-align: center;
+}
+
+main {
+  padding: 10px;
+}

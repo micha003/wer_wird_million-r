@@ -1,0 +1,24 @@
+header {
+  animation-name: background_c;
+  animation-duration: /* fill in */;
+  animation-iteration-count: infinite;
+}
+
+h1.header {
+  animation-name: text_c;
+  animation-duration: /* fill in */;
+  animation-iteration-count: infinite;
+}
+
+@keyframes background_c {
+  10% {
+    
+  }
+}
+
+@keyframes text_c {
+  0%  {color: gold;}
+  10% {color: yellow;}
+  20% {color: #ff8040;}
+  30% {color:}
+}
