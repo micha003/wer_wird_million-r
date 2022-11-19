@@ -6,14 +6,17 @@ header {
 h1.header {
   color: aliceblue;
   text-align: center;
-  float: right;
 }
 
 p.money {
   color: black;
-  float: none;
+  float: left;
 }
 
 main {
   padding: 10px;
+}
+
+p.asked_question {
+  color: black;
 }
