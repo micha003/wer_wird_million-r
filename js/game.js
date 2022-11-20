@@ -1,6 +1,6 @@
 let frage = 1;
 let money = 0;
-let money_amount
+let money_amount;
 
 const header = document.getElementById("heading");
 header.innerHTML = "Frage " + frage + ":"
@@ -9,8 +9,9 @@ const current_money = document.getElementById("money");
 current_money.innerHTML = "gewonnenes Geld: " + money;
 
 let A, B, C, D; // possible answers
+let right_answer;
 
-const display_question = document.getElementById("asked_question").innerHTML;
+let display_question = document.getElementById("asked_question");
 const fragen = [ // TODO: replace the ae, oe, ue and ss with the right letters
     "Was ist die Hauptstadt von Deutschland?",
 	"Wer war der erste US-Praesident?",
@@ -40,6 +41,7 @@ switch (frage) {
         B = "Bonn";
         C = "Hamburg";
         D = "Hannover";
+        right_answer = 'a';
     case 2:
         money_amount = 100;
         display_question.innerHTML = fragen[frage - 1];
@@ -47,6 +49,7 @@ switch (frage) {
         B = "Richard Nixon";
         C = "George Washington";
         D = "John Fitzgerald Kennedy";
+        right_answer = 'c';
     case 3:
         money_amount = 200;
         display_question.innerHTML = fragen[frage - 1];
@@ -54,6 +57,7 @@ switch (frage) {
         B = "Stickstoff";
         C = "Kohlenstoffdioxid";
         D = "Wassestoff";
+        right_answer = 'b';
     case 4:
         money_amount = 300;
         display_question.innerHTML = fragen[frage - 1];
@@ -61,6 +65,7 @@ switch (frage) {
         B = "Bundeskanzler";
         C = "Bundestagspraesident";
         D = "Bundespraesident";
+        right_answer = 'd';
     case 5:
         money_amount = 500;
         display_question.innerHTML = fragen[frage - 1];
@@ -68,6 +73,7 @@ switch (frage) {
         B = "Konrad Adenauer";
         C = "Helmut Kohl";
         D = "Gerhard Schroeder";
+        right_answer = 'b';
     case 6:
         money_amount = 1000;
         display_question.innerHTML = fragen[frage - 1];
@@ -75,6 +81,7 @@ switch (frage) {
         B = "Holzhbauten";
         C = "Bauernhaus";
         D = "Stroh-Holz-Haus";
+        right_answer = 'a';
     case 7:
         money_amount = 2000;
         display_question.innerHTML = fragen[frage - 1];
