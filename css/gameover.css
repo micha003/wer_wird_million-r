@@ -1,0 +1,21 @@
+* {
+    text-align: center;
+}
+
+h1.g_o {
+    color: rgb(214, 40, 40);
+    background-color: rgb(18, 87, 87);
+    font-size: 40px;
+}
+
+p.gameover_txt {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}
